@@ -7,7 +7,7 @@
 
 /*MENU INICIAL RESPONSIVO Desktop*/
 .nav-bar {
-    background-color: #f5ddd2;
+    background-color: #fdf0e9;
     background-size: 100%;
     display: flex;
     justify-content: space-between;
@@ -77,7 +77,7 @@
 
 @media screen and (max-width: 730px) {
     .nav-bar {
-        padding: 1.5rem 4rem;
+        padding: 1rem 2rem;
         background-image:url(img/1.jpg) ;
         background-size: 100%;
         display: flex;
