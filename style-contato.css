@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Raleway:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*MENU INICIAL RESPONSIVO Desktop*/
+.nav-bar {
+    background-color: #f5ddd2;
+    background-size: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+    
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    color: #fff;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #000000;
+    font-weight: 400;
+    
+}
+
+/*FIM MENU INICIAL RESPONSIVO Desktop*/
+
+/*MENU INICIAL RESPONSIVO Mobile*/
+
+.whats-button button {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(5, 5, 5);
+}
+
+.whats-button button a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width: 730px) {
+    .nav-bar {
+        padding: 1.5rem 4rem;
+        background-image:url(img/1.jpg) ;
+        background-size: 100%;
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .nav-item {
+        display: none;
+    }
+    .whats-button {
+        display: none;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+        background-color: rgb(255, 255, 255);
+        background-size: 100%;
+    
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+        background-color: rgb(255, 255, 255);
+    }
+    .mobile-menu .whats-button {
+        display: block;
+        padding: 1rem 2rem;
+        background-image:url(img/1.jpg) ;
+        background-size: 100%;
+    }
+    .mobile-menu .whats-button button {
+        width: 100%;
+    }
+    .open {
+        display: block;
+    }
+}
+/*FIM INICIAL RESPONSIVO Mobile*/
+
+/*Card info contatos*/
+.contato{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+}
+
+.contato .card{
+    width: 350px;
+    height: 350px;
+    background: rgba(0, 0, 0, 0) center;
+    border-radius: 24px 0px;
+    margin: auto;
+    max-width: 1000px;
+    flex-wrap: wrap;
+    justify-content: center;  
+}
+
+.contato .card-image{
+    
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.contato .card ul {
+    margin: 0 30px;
+}
+/*Final Cards contatos*/
+
+/* Roda-pé */
+#footer {
+    background-color: #fdf0e9;
+    background-size: 100%;
+    color: black;
+    padding: 30px;
+    text-align: center;
+}
+/* Final Roda-pé */
+
+
+/* Color */
+a{color: black;}
+p{color:black; }
+h1{color: black;}
+h2{color:black; }
+h3{color: black;}
+h4{color: black;}
+h5{color:black; }
+form{color:black;}
+label{color: black;}
+li{color: black;}
+ul{color: black;}
+/* Final  Color */
