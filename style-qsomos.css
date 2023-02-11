@@ -53,20 +53,6 @@
 
 /*MENU INICIAL RESPONSIVO Mobile*/
 
-.whats-button button {
-    border: none;
-    padding: 5px 10px;
-    border-radius: 5px;
-    background-color: rgb(250, 210, 35);
-}
-
-.whats-button button a {
-    text-decoration: none;
-    color: #000000;
-    font-weight: 500;
-    font-size: 1.1rem;
-}
-
 .mobile-menu-icon {
     display: none;
 }
@@ -87,9 +73,6 @@
     .nav-item {
         display: none;
     }
-    .whats-button {
-        display: none;
-    }
     .mobile-menu-icon {
         display: block;
     }
@@ -103,26 +86,24 @@
         flex-direction: column;
         text-align: center;
         padding-bottom: 1rem;
-        background-color: rgb(255, 255, 255);
+        background-color: #fdf0e9;
         background-size: 100%;
     
     }
     .mobile-menu .nav-item {
         display: block;
         padding-top: 1.2rem;
-        background-color: rgb(255, 255, 255);
-    }
-    .mobile-menu .whats-button {
-        display: block;
-        padding: 1rem 2rem;
-        background-image:url(img/1.jpg) ;
-        background-size: 100%;
-    }
-    .mobile-menu .whats-button button {
-        width: 100%;
+        background-color: #fdf0e9;
     }
     .open {
         display: block;
+    }
+    .nav-link {
+        text-decoration: none;
+        font-size: 1.15rem;
+        color: black;
+        font-weight: 400;
+        
     }
 }
 /*FIM INICIAL RESPONSIVO Mobile*/
@@ -199,6 +180,9 @@ header p {
 }
 /*Final Cards qsomos*/
 
+.whats{ position: fixed; bottom: 10px; right:10px; z-index: 9999;}
+
+
 
 /* Roda-pé */
 #footer {
@@ -209,6 +193,7 @@ header p {
     text-align: center;
 }
 /* Final Roda-pé */
+
 
 
 /* Color */
